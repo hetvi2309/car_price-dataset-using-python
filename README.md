@@ -2,20 +2,20 @@
 
 ## Overview
 
-This project performs Exploratory Data Analysis (EDA) on a real-world used car prices dataset using Python. The analysis focuses on understanding factors affecting car selling prices such as condition, odometer reading, brand, manufacturing year, state, and color.
+This is an Exploratory Data Analysis (EDA) project of a real world dataset of used car prices in Python. The analysis focuses on understanding factors affecting car selling prices such as condition, odometer reading, brand, manufacturing year, state, and color.
 
-The project was developed in Google Colab using beginner-friendly and well-commented Python code.
+It was created using simple and well commented Python code in Google colab.
 
 ---
 
 ## Objectives
 
-* Perform data cleaning and preprocessing
-* Handle missing values and duplicates
-* Analyze car prices using Pandas
-* Generate meaningful business insights
-* Create visualizations for trend analysis
-* Understand relationships between numerical features
+Ensure quality of data at the start (clean and preprocess data)
+* Deal with missing data and duplicate data
+Using Pandas, analyze car prices.
+* Draw out relevant business information
+Develop visualizations for trend analysis purposes
+Know about connections between numerical characteristics
 
 ---
 
@@ -34,46 +34,46 @@ The project was developed in Google Colab using beginner-friendly and well-comme
 
 ### 1. Data Ingestion & Quality Profiling
 
-* Loaded dataset using Pandas
+Using Pandas to load data.Loading data with Pandas.
 * Inspected dataset structure
-* Checked datatypes and record counts
-* Detected missing values and duplicates
+Verified the data types and data volume of a record.Validated data type and number of records.
+Identified missing data points and duplicate data points
 
 ### 2. DataFrame Queries
 
 * Average, minimum, and maximum selling price
-* Unique car colors, brands, and models
+Unique car colors, brands and models
 * High-value car analysis
-* Most frequently sold car models
-* State-wise and brand-wise price analysis
+The most popular models of cars sold.
+State-wise and brand-wise price analysis
 * Car age calculation
 * Excellent-condition value-for-money cars
 
 ### 3. Data Visualization
 
 * Correlation heatmap
-* Selling price vs year
-* Selling price vs odometer
-* State-wise car sales analysis
+Sales Price (Selling Price) by Year
+The demand function Q = 400 – 0.2P.The demand function is Q = 400 – 0.2P.
+Analyze the sale of cars by state.Summarize the sales of cars by state.
 * Condition-based price distribution
-* Box plots and outlier analysis
+Box plots and outlier analysis
 
 ---
 
 ## Key Insights
 
-* Newer cars generally have higher selling prices
-* Selling price decreases as odometer increases
-* Vehicle condition strongly affects resale value
-* Certain states dominate car sales volume
-* Premium brands maintain higher average prices
-* Outlier removal improves data interpretation
+Higher selling prices are generally found in newer vehicles.
+The higher the mileage on the car the lower its asking price.
+Re-sale value is significantly impacted by the condition of the vehicle.
+Some states account for a high share of car sales volume.
+The average price for premium brands is higher.
+Remove outliers to enhance data interpretation
 
 ---
 
 ## Dataset
 
-The dataset contains real-world used car listings including:
+This data set has real-world information on used cars, such as:
 
 * Selling Price
 * Year
@@ -91,4 +91,4 @@ The dataset contains real-world used car listings including:
 
 ## Conclusion
 
-This project demonstrates practical implementation of data analysis and visualization techniques using Python. It provides valuable insights into the used automobile market and strengthens foundational skills in Exploratory Data Analysis (EDA).
+In this project, you will learn how to apply data analysis and visualization techniques using Python. It offers insights into the used car market and adds to basic skills on Exploratory Data Analysis (EDA).
